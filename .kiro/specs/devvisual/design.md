@@ -72,7 +72,7 @@ The architecture implements a serverless event-driven pattern where each compone
 ### Primary Processing Pipeline
 
 1. **Image Upload Flow**
-   - User captures/uploads image via Streamlit/SwiftUI interface
+   - User captures/uploads image via React interface
    - Image uploaded directly to S3 bucket with pre-signed URLs
    - S3 PUT event triggers Image Processing Lambda function
    - Lambda validates image quality and extracts metadata
